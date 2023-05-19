@@ -4,3 +4,7 @@ class Teste(models.Model):
     nome = models.CharField(
         max_length=150
     )
+    class Teste2 (models.Model):
+        idade = models.CharField(
+            max_length=100
+        )
