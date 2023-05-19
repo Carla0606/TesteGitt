@@ -8,3 +8,7 @@ class Teste(models.Model):
         idade = models.CharField(
             max_length=100
         )
+        class Teste3 (models.Models):
+            idade2 = models.CharField(
+                max_length=100
+            )
